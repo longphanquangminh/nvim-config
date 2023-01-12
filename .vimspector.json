@@ -1,0 +1,20 @@
+{
+  "configurations": {
+    "rails": {
+      "adapter": "cust_vscode-ruby",
+      "default": true,
+      "configuration": {
+          "name": "Debug Rails server",
+          "type": "Ruby",
+          "request": "launch",
+          "cwd": "${workspaceRoot}",
+          "pathToBundler": "/home/chiendv/.rvm/rubies/ruby-3.0.0/bin/bundler",
+          "pathToRDebugIDE": "/home/chiendv/.rbenv/versions/2.7.4/lib/ruby/gems/2.7.0/gems/ruby-debug-ide-0.7.3",
+          "program": "${workspaceRoot}/bin/rails",
+          "args": [
+            "server", "-u", "puma" 
+          ]
+      }
+    }
+  }
+}

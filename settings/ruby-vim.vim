@@ -1,0 +1,13 @@
+:let ruby_operators        = 1
+:let ruby_pseudo_operators = 1
+:let ruby_space_errors = 1
+:let ruby_line_continuation_error = 1
+:let ruby_global_variable_error   = 1
+:let ruby_fold = 1
+:let ruby_foldable_groups = 'if case %'
+:let ruby_no_expensive = 1
+:let ruby_minlines = 100
+:let ruby_spellcheck_strings = 1
+let g:rubycomplete_buffer_loading = 1
+let g:rubycomplete_classes_in_global = 1
+let g:rubycomplete_load_gemfile = 1
